@@ -1,11 +1,10 @@
-# Bem vindo ao Milionarios tips
--------------------------------
-### Sobre o projeto
-----------------------
-O projeto trata-se de um site de apostas, no qual sera usado para voce acompanhar os resultados de seus jogos.
+<h1> Bem vindo ao milionario tips</h1>
 
-### Feito com 
--------------
-[![Xcode]
-(https://img.shields.io/badge/Xcode-007ACC?style=flat-square&logo=Xcode&logoColor=white@@)]()
-[![python]]
+- Aqui voce vai ver os bastidores doa criacao do site de apostas onlines
+- Uma nova era de apostas, um novo jeito de apostar.
+
+<h3 text-algin="center">:warning: Iniciando desenvolvimento :warning:</h3>
+
+<h2>Ferramentas que serao usadas</h2>
+
+- [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
