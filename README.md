@@ -19,4 +19,4 @@
 
 <h3>Contato dos nossos contribuintes</h3>
 
-<h4>:warnig: Em breve :warning: </h4>
+<h4>:warning: Em breve :warning: </h4>
