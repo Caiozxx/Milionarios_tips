@@ -9,6 +9,7 @@ body {
 
 #nav {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:rgb(88, 141, 28);
 }
 
 nav button {
@@ -21,21 +22,26 @@ nav .navbar-brand {
     border: 2px;
     border-style: solid;
     border-radius: 8px;
-    border-color: gray;
+    border-color: black;
     padding: 1px 3px;
 }
 
 body .jumbotron {
     background: gray;
 }
-
+.card {
+    text-align: center;
+}
 .card-item {
-    height: 200px;
+    height: 145px;
     width: 350px;
     background: white;
     display: inline-flex;
     text-align: center;
+    border:inset;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
 }
-.card{
-    text-align: center;
-}
+
+
