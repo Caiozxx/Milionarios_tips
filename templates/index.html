@@ -3,6 +3,7 @@
 
 <head>
   <title>Rafael Moreira Tips</title>
+  <!--Icon do tittle-->
   <link rel="shotcut icon" type="imagex/png" href="../icons/jogador-de-futebol.ico">
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -16,7 +17,7 @@
 <!--Nav bar init-->
 <header id="nav">
   <nav class="navbar navbar-expand-lg navbar-light bg-ligth" style="background-color: #e3f2fd;">
-    <a class="navbar-brand" href="#">Rafael Moreira Tips</a>
+    <a class="navbar-brand">Rafael Moreira Tips</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,10 +26,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Maximas<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cadastro</a>
+          <a class="nav-link" href="#">Analise completa</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -45,15 +46,17 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="false">Login</a>
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="false">Horarios</a>
         </li>
       </ul>
       <!--Formulario de Login-->
       <form class="form-inline my-2 my-lg-0" method="POST" action="...">
-        <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email" id="email">
-        <input class="form-control mr-sm-2" type="password" placeholder="Password" id="password">
+        <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email" id="email" Required />
+        <input class="form-control mr-sm-2" type="password" placeholder="Password" id="password" Required />
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Entrar</button>
       </form>
+      <a href="../templates/cadastro.html"><button class="btn btn-outline-primary my-2 my-sm-0">Cadastre-se</button></a>
+
     </div>
   </nav>
 </header>
