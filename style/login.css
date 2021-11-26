@@ -5,13 +5,15 @@
 }
 
 
-#nav{
-    background:gray;
+#nav {
+    background: gray;
 }
-nav .button{
-    text-align:right;
+
+nav .button {
+    text-align: right;
 }
-form{
+
+form {
     height: 290px;
     display: flex;
     flex-direction: column;
@@ -20,9 +22,9 @@ form{
 }
 
 form .card {
-    width:350px;
-    height:250px;
-    background:gray;
+    width: 350px;
+    height: 250px;
+    background: linear-gradient(45deg, red, blue 70%);
     flex-direction: column;
     padding: 0 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -34,18 +36,19 @@ form input {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-form label{
-    padding:0px 15px;
+
+form label {
+    padding: 0px 15px;
 }
-form .button{
-    text-align:right;
+
+form .button {
+    text-align: right;
 }
-#rodape{
-    background:gray;
-}
-.footer{
-   position: absolute;
-   bottom: 0;
-   width:100%;
-   text-align:center;
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: gray;
 }
