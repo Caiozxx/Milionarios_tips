@@ -37,10 +37,15 @@ form input {
 form label{
     padding:0px 15px;
 }
+form .button{
+    text-align:right;
+}
 #rodape{
     background:gray;
 }
-footer{
-    background:gray;
-    position: relative;
+.footer{
+   position: absolute;
+   bottom: 0;
+   width:100%;
+   text-align:center;
 }
